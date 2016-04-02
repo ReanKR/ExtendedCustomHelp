@@ -1,0 +1,22 @@
+name: ExtendedCustomHelp
+version: 1.0.2
+main: org.whitehack97.ExtendedCustomHelp.main.ExtendedCustomHelp
+author: Rean KR
+description: Extended help plugin
+
+commands:
+  ?:
+    description: Help Command
+  help:
+    description: Help Command
+    aliases: [ehelp]
+  ExtendedCustomHelp.Reloaded:
+    description: ExtendedCustomHelp reload command
+    aliases: [ehelpreload, helpreload, ehr]
+permissions:
+  extendedcustomhelp.*:
+    description: Give access view all page.
+    default: OP
+  extendedcustomhelp.reload:
+    description: Give access reload ExtendedCustomHelp.
+    default: OP

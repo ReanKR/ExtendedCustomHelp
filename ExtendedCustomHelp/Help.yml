@@ -1,0 +1,39 @@
+# How to run command : /help <name> [children]
+# Main page is required. do not delete this method.
+# %player% : Player name
+# more information, http://dev.bukkit.org/bukkit-plugins/extendedcustomhelp/
+Main: # /help or /?
+  Text:
+  - 'Hello minecraft!'
+  - 'your name is %player%'
+  - 'Need Help? Use command /help'
+Children:
+  Survival: # /help Survival
+    Need-Permission: true
+    # In other words, The player need permission, 'extendedcustomhelp.Survival'
+    Text:
+    - 'Survival Page'
+    - '&aColor format supported'
+    Children:
+      info: # /help Survival info
+        Need-Permission: true
+        Text:
+        - 'Detailed Creative Help Page'
+        - '&eThanks for use my plugin!'
+      info2:
+        Need-Permission: true
+        Text:
+        - 'This page name is info2.'
+        - 'Finished :)'
+  Creative:
+    Need-Permission: true
+    Text: # /help Creative
+    - 'Creative Main Page'
+    - '&bThank you!'
+    Children:
+      more: # /help Creative more
+        Need-Permission: true
+         # In other words, The player need permission, 'extendedcustomhelp.Creative.more'
+        Text:
+        - 'Detailed Creative Help Page'
+        - '&bThanks for use my plugin!'

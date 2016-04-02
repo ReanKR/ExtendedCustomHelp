@@ -1,0 +1,8 @@
+# ExtendedCustomHelp main configuration
+# %page% : get page name
+# %permission% : get permission name
+Config-Version: 2
+Help-Not-Found: "&cThe page %page% not found. try other page."
+Not-Permission: "&cThe page %page% access deined. %permission%"
+Reload-Complete: "&3ExtendedCustomHelp Reload Complete."
+Reload-Not-Permission: "&cYou cannot access to reload this plugin."
