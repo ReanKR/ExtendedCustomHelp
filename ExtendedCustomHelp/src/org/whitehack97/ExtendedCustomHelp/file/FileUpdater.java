@@ -1,4 +1,4 @@
-package org.whitehack97.ExtendedCustomHelp.main;
+package org.whitehack97.ExtendedCustomHelp.file;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;

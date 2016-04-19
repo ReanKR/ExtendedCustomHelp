@@ -11,6 +11,7 @@ import org.bukkit.event.Listener;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.whitehack97.ExtendedCustomHelp.api.Help;
+import org.whitehack97.ExtendedCustomHelp.file.FileUpdater;
 
 
 public class ExtendedCustomHelp extends JavaPlugin implements Listener
